@@ -1,0 +1,3 @@
+name: Pytest & flake8 control Push
+
+on: push
