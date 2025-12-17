@@ -1,3 +1,8 @@
 name: Pytest & flake8 control Push
 
 on: push
+
+jobs:
+  qa:
+    name: Check tests
+    runs-on: ubuntu-24.04
